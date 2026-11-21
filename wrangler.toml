@@ -2,3 +2,7 @@ name = "rss-worker"
 main = "src/worker.js"
 compatibility_date = "2026-05-23"
 compatibility_flags = ["nodejs_compat"]
+
+routes = [
+  { pattern = "feed.rushia.eu.org", custom_domain = true }
+]
